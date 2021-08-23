@@ -17,3 +17,15 @@ test('try to get an invalid entry', async () => {
 
   expect(animals.get('cat')).toBe(null);
 });
+
+test('delete a key', () => {
+  const animals = new CacheNow<number>(2 * 1000);
+
+  animals.set('dog', 40);
+
+  const deleted = animals.delete('dog');
+
+  expect(deleted).toBe(40);
+
+  expect(animals.get('dog')).toBe(null);
+});
