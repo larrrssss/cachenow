@@ -30,6 +30,14 @@ class CacheNow<T> {
 
     return data;
   }
+
+  public delete(key: string): T | null {
+    const entry = this.storage.get(key);
+
+    this.storage.delete(key);
+
+    return entry?.data || null;
+  }
 }
 
 export default CacheNow;
