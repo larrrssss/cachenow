@@ -26,6 +26,6 @@ setTimeout(() => {
 
 ## Todo
 
-* [ ] Delete key from cache
+* [x] Delete key from cache
 * [ ] Add option to save cache in a specific file 
   * `new CacheNow(5 * 1000, 'storage.json')`
