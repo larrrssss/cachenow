@@ -1,6 +1,6 @@
 # Cachenow
 
-`cachenow` is package to easily cache any data for a specifiy time
+`cachenow` is a package to easily cache any type of data for a specific time. It works like a `Map` with a specific TTL for each entry.
 
 ## Install
 
