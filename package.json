@@ -1,6 +1,6 @@
 {
   "name": "cachenow",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cachenow is package to easily cache any data for a specifiy time",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
