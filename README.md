@@ -27,5 +27,5 @@ setTimeout(() => {
 ## Todo
 
 * [x] Delete key from cache
-* [ ] Add option to save cache in a specific file 
+* [ ] Add option to save cache in a specific file for development. It's not recommended for production.
   * `new CacheNow(5 * 1000, 'storage.json')`
